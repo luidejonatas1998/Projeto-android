@@ -1,0 +1,198 @@
+@charset "utf-8";
+@font-face {
+    font-family: idroid ;
+    src: url(fontes/idroid.otf);
+}
+  
+
+*{
+    margin:0 ;
+    padding:0 ;
+}
+
+header{
+    background-color: #19FC64;
+    padding-top: 10px;
+    text-align: center;
+    height: 100px;
+    border-radius: 2px;
+}
+header h1 {
+
+    color: #FC443F;
+    font-family: idroid;
+    padding-top: 10px;
+}
+header p {
+
+    padding-top: 10px;
+    color: white;
+}
+
+header p:hover{
+    color: red;
+}
+
+nav{
+    background-color: #19FC64;
+    text-align: left;
+    padding-bottom: 15px;
+    
+}
+
+nav > a {
+    font: 25px arial sans-serif;
+    color: rgb(255, 28, 28);
+    padding-left: 10px;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    color: rgb(60, 13, 230);
+}
+
+main{
+    width: 1100px;
+    margin: auto;
+}
+   
+
+main .titulo1 {
+    font-family: idroid;
+    padding-left: 5%;
+    background-color: #b2f7c9;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px black;
+    
+    
+}
+
+main .titulo2{
+    font-family: idroid;
+    padding-left: 5%;
+    background-color: #b2f7c9;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.863);
+    
+}
+main .p1{
+text-indent: 1%;
+padding-left: 5px;
+text-align: justify;
+margin-top: 5px;
+}
+
+main .p2{
+
+    text-indent: 1%;
+    padding-left: 5px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+main .p3{
+    text-indent: 1%;
+    padding-left: 5px;
+    text-align: justify;
+
+}
+
+main .p4 {
+    text-indent: 2%;
+    padding-left: 5px;
+    text-align: justify;
+}
+main .p5{
+    text-indent: 2%;
+    padding-left: 5px;
+    text-align: justify;
+
+}
+
+main .p6 {
+    margin-top: 10px;
+    text-indent: 2%;
+    padding-left: 5px;
+    text-align: justify;
+}
+
+main aside {
+    margin-top: 10px;
+    background-color: #cbf3d8;
+    box-shadow: 1px 1px 1px black;
+}
+
+main aside >h2{
+    margin-top: 10px;
+    padding: 5px;
+    font-family: idroid;
+    background-color: #7efaa7;
+    padding-left: 15px;
+    margin-top: 5px;
+    font: idroid;
+    box-shadow: 1px 1px 1px black;
+
+}
+
+main aside > ul{
+    padding-left: 35px;
+
+}
+main aside > .p1{
+    margin-top: 5px;
+    text-indent: 2%;
+    padding-left: 5px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #19FC64   ;
+    padding-top: 10px;
+    }
+
+footer p{
+    text-align: center;
+    font-size: 20px;
+}    
+
+footer .p2 {
+    padding-top: 10px;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+
+footer .p2 > .ancora {
+    text-decoration: none;
+}
+
+picture img{
+    width: 100%;
+}
+
+main .img1{
+    width: 30%;
+    align-items: center;
+}
+
+.d1{
+    background-color: #7efaa7;
+    max-width: 100%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d1 >iframe{
+    
+    top: 10%;
+    left: 15%;
+    
+}
+
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
